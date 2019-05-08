@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54F0DE32266D78B009CD83D /* Argument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F0DDD2266D78B009CD83D /* Argument.swift */; };
+		A54F0DE42266D78B009CD83D /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F0DDE2266D78B009CD83D /* Environment.swift */; };
+		A54F0DE52266D78B009CD83D /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F0DDF2266D78B009CD83D /* Icon.swift */; };
+		A54F0DE62266D78B009CD83D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F0DE02266D78B009CD83D /* Item.swift */; };
+		A54F0DE72266D78B009CD83D /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F0DE12266D78B009CD83D /* Modifier.swift */; };
+		A54F0DE82266D78B009CD83D /* SwiftAlfred.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F0DE22266D78B009CD83D /* SwiftAlfred.swift */; };
+		A58CAB9422656ED90071D76A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CAB9322656ED90071D76A /* main.swift */; };
+		A58CAB9B22656F020071D76A /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58CAB9A22656F020071D76A /* HomeKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5124F40226A1A6900B0AA59 /* HKAlfredHelper.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HKAlfredHelper.plist; sourceTree = "<group>"; };
+		A54F0DDD2266D78B009CD83D /* Argument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Argument.swift; sourceTree = "<group>"; };
+		A54F0DDE2266D78B009CD83D /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		A54F0DDF2266D78B009CD83D /* Icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		A54F0DE02266D78B009CD83D /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A54F0DE12266D78B009CD83D /* Modifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+		A54F0DE22266D78B009CD83D /* SwiftAlfred.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAlfred.swift; sourceTree = "<group>"; };
+		A58CAB9022656ED90071D76A /* HKAlfredHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HKAlfredHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58CAB9322656ED90071D76A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A58CAB9A22656F020071D76A /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HomeKit.framework; sourceTree = "<group>"; };
+		A58CAB9C22656F2A0071D76A /* HKAlfredHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HKAlfredHelper.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A58CAB8D22656ED90071D76A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58CAB9B22656F020071D76A /* HomeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A54F0DDC2266D78B009CD83D /* Alfred */ = {
+			isa = PBXGroup;
+			children = (
+				A54F0DDD2266D78B009CD83D /* Argument.swift */,
+				A54F0DDE2266D78B009CD83D /* Environment.swift */,
+				A54F0DDF2266D78B009CD83D /* Icon.swift */,
+				A54F0DE02266D78B009CD83D /* Item.swift */,
+				A54F0DE12266D78B009CD83D /* Modifier.swift */,
+				A54F0DE22266D78B009CD83D /* SwiftAlfred.swift */,
+			);
+			path = Alfred;
+			sourceTree = "<group>";
+		};
+		A58CAB8722656ED90071D76A = {
+			isa = PBXGroup;
+			children = (
+				A5124F40226A1A6900B0AA59 /* HKAlfredHelper.plist */,
+				A58CAB9A22656F020071D76A /* HomeKit.framework */,
+				A58CAB9222656ED90071D76A /* HKAlfredHelper */,
+				A58CAB9122656ED90071D76A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A58CAB9122656ED90071D76A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A58CAB9022656ED90071D76A /* HKAlfredHelper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A58CAB9222656ED90071D76A /* HKAlfredHelper */ = {
+			isa = PBXGroup;
+			children = (
+				A54F0DDC2266D78B009CD83D /* Alfred */,
+				A58CAB9C22656F2A0071D76A /* HKAlfredHelper.entitlements */,
+				A58CAB9322656ED90071D76A /* main.swift */,
+			);
+			path = HKAlfredHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A58CAB8F22656ED90071D76A /* HKAlfredHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A58CAB9722656ED90071D76A /* Build configuration list for PBXNativeTarget "HKAlfredHelper" */;
+			buildPhases = (
+				A58CAB8C22656ED90071D76A /* Sources */,
+				A58CAB8D22656ED90071D76A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HKAlfredHelper;
+			productName = HKAlfredHelper;
+			productReference = A58CAB9022656ED90071D76A /* HKAlfredHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A58CAB8822656ED90071D76A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = metameta;
+				TargetAttributes = {
+					A58CAB8F22656ED90071D76A = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = A58CAB8B22656ED90071D76A /* Build configuration list for PBXProject "HKAlfredHelper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A58CAB8722656ED90071D76A;
+			productRefGroup = A58CAB9122656ED90071D76A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A58CAB8F22656ED90071D76A /* HKAlfredHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A58CAB8C22656ED90071D76A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54F0DE62266D78B009CD83D /* Item.swift in Sources */,
+				A54F0DE32266D78B009CD83D /* Argument.swift in Sources */,
+				A54F0DE72266D78B009CD83D /* Modifier.swift in Sources */,
+				A54F0DE42266D78B009CD83D /* Environment.swift in Sources */,
+				A54F0DE52266D78B009CD83D /* Icon.swift in Sources */,
+				A54F0DE82266D78B009CD83D /* SwiftAlfred.swift in Sources */,
+				A58CAB9422656ED90071D76A /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A58CAB9522656ED90071D76A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = HKAlfredHelper/HKAlfredHelper.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 62GHLBR36D;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Debug;
+		};
+		A58CAB9622656ED90071D76A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = HKAlfredHelper/HKAlfredHelper.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 62GHLBR36D;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A58CAB9822656ED90071D76A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HKAlfredHelper/HKAlfredHelper.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				DEVELOPMENT_TEAM = 62GHLBR36D;
+				ENABLE_HARDENED_RUNTIME = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/HKAlfredHelper.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metameta.HKAlfredHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A58CAB9922656ED90071D76A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HKAlfredHelper/HKAlfredHelper.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				DEVELOPMENT_TEAM = 62GHLBR36D;
+				ENABLE_HARDENED_RUNTIME = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/HKAlfredHelper.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metameta.HKAlfredHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A58CAB8B22656ED90071D76A /* Build configuration list for PBXProject "HKAlfredHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58CAB9522656ED90071D76A /* Debug */,
+				A58CAB9622656ED90071D76A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A58CAB9722656ED90071D76A /* Build configuration list for PBXNativeTarget "HKAlfredHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58CAB9822656ED90071D76A /* Debug */,
+				A58CAB9922656ED90071D76A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A58CAB8822656ED90071D76A /* Project object */;
+}
