@@ -19,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		A5124F40226A1A6900B0AA59 /* HKAlfredHelper.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HKAlfredHelper.plist; sourceTree = "<group>"; };
+		A514A64F228267890054F46C /* distribution */ = {isa = PBXFileReference; lastKnownFileType = folder; path = distribution; sourceTree = "<group>"; };
 		A54F0DDD2266D78B009CD83D /* Argument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Argument.swift; sourceTree = "<group>"; };
 		A54F0DDE2266D78B009CD83D /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		A54F0DDF2266D78B009CD83D /* Icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 		A58CAB8722656ED90071D76A = {
 			isa = PBXGroup;
 			children = (
+				A514A64F228267890054F46C /* distribution */,
 				A5124F40226A1A6900B0AA59 /* HKAlfredHelper.plist */,
 				A58CAB9A22656F020071D76A /* HomeKit.framework */,
 				A58CAB9222656ED90071D76A /* HKAlfredHelper */,
