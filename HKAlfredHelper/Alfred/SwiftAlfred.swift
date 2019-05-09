@@ -1,3 +1,6 @@
+//CREDITS to https://github.com/BenchR267/swiftalfred/commits?author=BenchR267
+//github https://github.com/BenchR267/swiftalfred
+
 import Foundation
 
 protocol JSONable {

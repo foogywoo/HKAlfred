@@ -1,3 +1,6 @@
+//CREDITS to https://github.com/BenchR267/swiftalfred/commits?author=BenchR267
+//github https://github.com/BenchR267/swiftalfred
+
 public struct Modifier: JSONable {
     public var valid = true
     var arg: Argument
